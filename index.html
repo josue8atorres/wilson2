@@ -1,79 +1,137 @@
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta content="wilson Caviedes Saenz" name="author">
-	<meta content="Sitio web seguridad informatica" name="descripton">
-	<meta content="UNAD, diseño web, html" name="keywords">
-
-	<title>Sinfo 08-abr-17</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-	<div id="contenedor">
-		<header>
-			<img src="img/Ppal.png" alt="header">
-		</header>
-		
-		<nav>
-			<ul>
-				<li><a href="index.html">Inicio</a></li>
-				<li><a href="http://www.unad.edu.co">UNAD</a></li>			
-				<li><a href="SegInfo.html">Seguridad informática</a></li>
-				<li><a href="Delitos.html">Delitos</a></li>
-				<li><a href="Casos.html">Casos</a></li>
-				<li><a href="Glosario.html">Glosario</a></li>
-				<li><a href="Autores.html">Autores</a></li>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Mi primer sitio Web</title>
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+	</head>
+	
+	<body>
+		<div id="container">
+			<div id="menu">
+				<ul>
+					<li><a href="#servicios">SERVICIOS</a></li>
+					<li><a href="#trabajo">TRABAJO</a></li>
+					<li><a href="#inicio" class="logo">&nbsp;</a></li>
+					<li><a href="#faq">FAQ</a></li>
+					<li><a href="#contacto">CONTACTO</a></li>
 				</ul>
-		</nav>
-		
-		<section>
-			<article>
-				<h2>Introducción a la Seguridad informática<h2>
-					<figure>
-						<img src="img/LogoUnad.png" width="250" height="150" alt="UNAD">
-					</figure>
-					<P> En la actualidad es un tema muy complejo debido a que cada día hay nuevas amenazas informáticas contra nuestros equipos e información ya sea: familiar, personal, de trabajo, etc. 
-					</p>	
+			</div><!--Fin menu-->
 
-					<P> Es por ello que se debe aprender sobre las posibles amenazas que puede generar un ataque, además conocer las leyes con que el país cuenta en materia de ciberataques.
-					</p>	
+			<div id="inicio">
+				<div id="slider">
+					<div id="containerSlider">
+						<img src="img/slide-1.jpg" alt="" width="951" height="433">
+						<img src="img/slide-2.jpg" alt="" width="951" height="433">
+						<img src="img/slide-3.jpg" alt="" width="951" height="433">
+					</div><!--Fin containerSlider-->
+				</div><!--Fin slider-->
 
-					<a class="twitter-timeline"  href="https://twitter.com/hashtag/SImatica" data-widget-id="853691951614447617">Tweets sobre #SImatica</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-          
-          
+			</div><!--Fin inicio-->
 
-			<article>
-		</section>
-		<aside>
-			<h4>Virus</h4>
-			<figure>
-				<img src="img/virus.png" width="150" alt="Virus">
-			</figure>
-				<p>Recuperado de: http://nubr.co/Wu4dY4
-				</p>
-				<P> Sea profesional en analizar, diseñar e implementar modelos, sistemas y estándares de seguridad informática:
-				</p>
-			<ul>
-				<li><a href="https://estudios.unad.edu.co/especializacion-en-seguridad-informatica">Especialización en Seguridad Informática UNAD.</a></li>
-								
-				<!-- Contador de visitas -->
-				<center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
-				<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=233173"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'>Contador visitas</a><br><a href='http://www.websmultimedia.com/registro-de-marcas-y-logotipos'>registro marcas</a></center>
-				<!-- Fin Contador de visitas -->
-				</ul>
-		</aside>
+			<div id="servicios">
+				<h2>Servicios</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
 
-		<footer>
-			<h3>Sitio web diseñado por wilson<h3>
+				<div id ="acordeonServicios">
+					<div id="tab">
+						<a href="#">Plan Básico</a>
+						<a href="#">Plan Medio</a>
+						<a href="#">Plan Alto</a>
+					</div><!--Fin tab-->
+					<div class="tabContent">
+						<img src="">
+					</div>
+					<div class="tabContent">
+						<img src="">
+					</div>
+					<div class="tabContent">
+						<img src="">
+					</div>
+				</div><!--Fin acordeonServicios-->
 
+			</div><!--Fin servicios-->
 
-		</fotter>
+			<div id="trabajo">
+				<h2>Trabajo</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
 
-	</div>
+				<div id="slideshow">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+					<img src="">
+				</div><!--Fin slideshow-->
+			</div><!--Fin trabajo-->
 
-</body>
-<script src="js/modernizr.js"></script>
-<script src="js/prefixfree.js"></script>
+			<div id="faq">
+				<h2>FAQ</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id="acordeonFaq">
+				</div><!--Fin acordeonFaq-->
+
+			</div><!--Fin faq-->
+
+			<div id="contacto">
+				<h2>Contacto</h2>
+				<div class="contenido">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div><!--Fin contenido-->
+
+				<div id="formulario">
+					<form action="">
+						<label>Nombre:</label><br/>
+						<input type="text" class="campo" id="tfNombre"><br/>
+						<label> Correo Electronico:</label><br/>
+						<input type="text" class="campo" id="tfCorreo"><br/>
+						<label>Asunto:</label><br/>
+						<input type="text" class="campo" id="tfAsunto"><br/>
+						<label>Mensaje:</label><br/>
+						<textarea id="tfMensaje" cols="30" rows="10"></textarea><br/>
+						<input type="submit" value="Enviar formulario!!" class="boton">
+
+					</form><!--Fin form-->
+				</div><!--Fin formulario-->
+			</div><!--Fin contacto-->
+
+			<div id="footer">
+				Todos los derechos reservados - 2016
+			</div><!--Fin footer-->
+
+		</div><!--Fin Container-->	
+	</body>
+
 </html>
